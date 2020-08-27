@@ -17,9 +17,6 @@
         <li class="menu-item">
             <n-link to="counting" class="menu-link">개표</n-link>
         </li>
-        <li class="menu-item">
-            <n-link to="#" class="menu-link">당선</n-link>
-        </li>
     </ul>
     <nuxt />
 </div>
