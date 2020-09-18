@@ -1,0 +1,78 @@
+body {
+    font-family: 'Noto Sans KR';
+    -webkit-overflow-scrolling: touch;
+    color: #555;
+    background: #fff000;
+    height: 500vw;
+}
+.world {
+    perspective: 1000px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.stage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+.house {
+    transform-style: preserve-3d;
+    width: 100vw;
+    height: 10vh;
+    transform: translateZ(-490vw)
+}
+.wall {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.wall-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.wall-title {
+    font-size: 5rem;
+}
+.wall-left {
+    /* left: -500vw; */
+    background: #f8f8f8;
+    width: 1000vw;
+    transform: rotateY(90deg) translateZ(-500vw);
+
+}
+.wall-right {
+    /* left: -400vw; */
+    background: #f8f8f8;
+    width: 1000vw;
+    transform: rotateY(90deg) translateZ(-400vw)
+}
+.wall-front-a { transform: translateZ(300vw); }
+.wall-front-b { transform: translateZ(50vw); }
+.wall-front-c { transform: translateZ(-200vw); }
+.wall-front-d { transform: translateZ(-500vw); }
+
+.progress-bar-con {
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 5px;
+    background: #555;
+}
+.progress-bar {
+    width: 0;
+    height: 5px;
+    background: #00a8ff;
+}
