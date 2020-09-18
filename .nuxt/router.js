@@ -3,11 +3,11 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _3441b693 = () => interopDefault(import('..\\pages\\counting.vue' /* webpackChunkName: "pages/counting" */))
-const _4ebecfd9 = () => interopDefault(import('..\\pages\\registration.vue' /* webpackChunkName: "pages/registration" */))
-const _f9614a40 = () => interopDefault(import('..\\pages\\setting.vue' /* webpackChunkName: "pages/setting" */))
-const _628d418a = () => interopDefault(import('..\\pages\\vote.vue' /* webpackChunkName: "pages/vote" */))
-const _9562fb3c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _6cf0c59a = () => interopDefault(import('..\\pages\\counting.vue' /* webpackChunkName: "pages/counting" */))
+const _6b706679 = () => interopDefault(import('..\\pages\\registration.vue' /* webpackChunkName: "pages/registration" */))
+const _df3bbf80 = () => interopDefault(import('..\\pages\\setting.vue' /* webpackChunkName: "pages/setting" */))
+const _070f782a = () => interopDefault(import('..\\pages\\vote.vue' /* webpackChunkName: "pages/vote" */))
+const _bdd9c07c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -27,23 +27,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/counting",
-    component: _3441b693,
+    component: _6cf0c59a,
     name: "counting"
   }, {
     path: "/registration",
-    component: _4ebecfd9,
+    component: _6b706679,
     name: "registration"
   }, {
     path: "/setting",
-    component: _f9614a40,
+    component: _df3bbf80,
     name: "setting"
   }, {
     path: "/vote",
-    component: _628d418a,
+    component: _070f782a,
     name: "vote"
   }, {
     path: "/",
-    component: _9562fb3c,
+    component: _bdd9c07c,
     name: "index"
   }],
 

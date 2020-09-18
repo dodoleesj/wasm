@@ -2,36 +2,36 @@
   {
     "name": "counting",
     "path": "/counting",
-    "component": "C:\\\\Dev\\\\_GitHub\\\\dodoleesj\\\\wasm-git\\\\pages\\\\counting.vue",
+    "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\counting.vue",
     "chunkName": "pages/counting",
-    "_name": "_3441b693"
+    "_name": "_6cf0c59a"
   },
   {
     "name": "registration",
     "path": "/registration",
-    "component": "C:\\\\Dev\\\\_GitHub\\\\dodoleesj\\\\wasm-git\\\\pages\\\\registration.vue",
+    "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\registration.vue",
     "chunkName": "pages/registration",
-    "_name": "_4ebecfd9"
+    "_name": "_6b706679"
   },
   {
     "name": "setting",
     "path": "/setting",
-    "component": "C:\\\\Dev\\\\_GitHub\\\\dodoleesj\\\\wasm-git\\\\pages\\\\setting.vue",
+    "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\setting.vue",
     "chunkName": "pages/setting",
-    "_name": "_f9614a40"
+    "_name": "_df3bbf80"
   },
   {
     "name": "vote",
     "path": "/vote",
-    "component": "C:\\\\Dev\\\\_GitHub\\\\dodoleesj\\\\wasm-git\\\\pages\\\\vote.vue",
+    "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\vote.vue",
     "chunkName": "pages/vote",
-    "_name": "_628d418a"
+    "_name": "_070f782a"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Dev\\\\_GitHub\\\\dodoleesj\\\\wasm-git\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_9562fb3c"
+    "_name": "_bdd9c07c"
   }
 ]
