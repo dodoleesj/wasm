@@ -12,8 +12,9 @@ import '..\\assets\\vote-page.css'
 import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
 import _6f6c098b from '..\\layouts\\default.vue'
+import _64ae1068 from '..\\layouts\\temp_default.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_temp_default": sanitizeComponent(_64ae1068) }
 
 export default {
   render (h, props) {
