@@ -8,13 +8,13 @@
       height="200px"
       src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
     </v-img>
-    <v-card-title> 기호 {{ candidate.num }}번 {{ candidate.name }}</v-card-title>
+    <v-card-title> 기호 {{ candidate.num}}번 {{ candidate.name }}</v-card-title>
     <v-card-text class="text--primary">
       <v-text-field label="각오 한마디" hide-details="auto"></v-text-field>
     </v-card-text>
 
     <v-card-actions>
-      <v-btn dark color="red" @click="giveUp">포기</v-btn> <h2>{{ candidate.votes }}</h2>
+      <v-btn dark color="red" @click="giveUp">포기</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -25,7 +25,7 @@ export default {
     candidate: {
       type: Object,
       required: true,
-    },
+    }
   },
   methods: {
     giveUp() {

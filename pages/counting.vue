@@ -1,6 +1,6 @@
 <template>
 <div>
-<h1>개표페이지</h1>
+    <h2>개표 페이지</h2>
 </div>
 </template>
 

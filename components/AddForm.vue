@@ -27,9 +27,8 @@ export default {
         onSubmitForm() {
             this.$store.dispatch('students/add', {
                 name: this.name,
-                num: this.$store.state.students.candidateStudents.length+1,
+                num: this.num++,
                 word: '',
-                votes: 0,
                 id: Date.now(),
             })
             this.name = ''
