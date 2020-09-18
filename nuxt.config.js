@@ -10,8 +10,6 @@ export default {
     css: [
         '@/assets/default.css',
         '@/assets/vote-page.css',
-        // '@/assets/reset.css',
-        // '@/assets/counting-page.css',
     ],
     dev: {},
     env: {},
