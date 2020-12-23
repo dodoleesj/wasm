@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mdi/font": "^5.5.55",
+    "@mdi/font": "^5.8.55",
     "@nuxtjs/vuetify": "^1.11.2",
-    "nuxt": "^2.14.3",
+    "nuxt": "^2.14.12",
     "vue": "^2.6.12"
   }
 }
