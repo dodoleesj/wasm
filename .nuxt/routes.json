@@ -3,35 +3,30 @@
     "name": "counting",
     "path": "/counting",
     "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\counting.vue",
-    "chunkName": "pages/counting",
-    "_name": "_6cf0c59a"
+    "chunkName": "pages/counting"
   },
   {
     "name": "registration",
     "path": "/registration",
     "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\registration.vue",
-    "chunkName": "pages/registration",
-    "_name": "_6b706679"
+    "chunkName": "pages/registration"
   },
   {
     "name": "setting",
     "path": "/setting",
     "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\setting.vue",
-    "chunkName": "pages/setting",
-    "_name": "_df3bbf80"
+    "chunkName": "pages/setting"
   },
   {
     "name": "vote",
     "path": "/vote",
     "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\vote.vue",
-    "chunkName": "pages/vote",
-    "_name": "_070f782a"
+    "chunkName": "pages/vote"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\dodore\\\\Desktop\\\\wasm\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_bdd9c07c"
+    "chunkName": "pages/index"
   }
 ]
