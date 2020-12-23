@@ -11,8 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "@mdi/font": "^5.8.55",
-    "@nuxtjs/vuetify": "^1.11.2",
+    "@nuxtjs/vuetify": "^2.0.0-beta.2",
+    "fibers": "^5.0.0",
+    "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
-    "vue": "^2.6.12"
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.12",
+    "vuetify": "^2.3.22",
+    "vuetify-loader": "^1.6.0"
   }
 }
