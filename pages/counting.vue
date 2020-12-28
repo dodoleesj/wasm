@@ -1,14 +1,20 @@
 <template>
 <div>
-<h1>개표페이지</h1>
+    <h1>개표 페이지</h1>
 </div>
 </template>
 
 <script>
+
+
 export default {
+    layout: 'counting',
 }
 </script>
 
-<style>
-
+<style scoped>
+h1{
+    text-align: center;
+    padding: 30px;
+}
 </style>

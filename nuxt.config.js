@@ -10,12 +10,13 @@ export default {
         ],
         link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-        ]
+        ]        
     },
     buildModules: [
         '@nuxtjs/vuetify',
     ],
-    plugins: [],
+    plugins: [
+    ],
     build: {},
     css: [
         '@/assets/default.css',

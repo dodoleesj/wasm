@@ -5,8 +5,8 @@
     style="margin: 10px">
     <v-img
       class="white--text align-end"
-      height="200px"
-      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+      height="300px" 
+      src="https://aws-test-dodore.s3.ap-northeast-2.amazonaws.com/images/child.png">
     </v-img>
     <v-card-title> 기호 {{ candidate.num }}번 {{ candidate.name }}</v-card-title>
     <v-card-text class="text--primary">
