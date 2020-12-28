@@ -19,12 +19,14 @@ export default {
     data() {
         return {
             studentNums : this.$store.state.setting.studentNums,
-            votedNums : 0,
+            votedNums :  this.$store.state.setting.votedNums,
             candidateNums : this.$store.state.students.candidateStudents.length,
         }
     },
     beforeMount() {
-        alert('투표를 시작합니다.')
+        if(this.studentNums!=this.votedNums){
+            alert('투표를 시작합니다.')
+        }
     },
     mounted() {
         document.addEventListener('keypress',this.submitVote)
@@ -50,6 +52,12 @@ export default {
                     });
                     this.votedNums++;
                     console.log(this.votedNums);
+                    if( this.votedNums == this.studentNums ){
+                        alert('투표가 종료되었습니다.')
+                        this.$store.dispatch('setting/endVote', {
+                            votedNums: this.votedNums
+                        })
+                    }
                 } else {
                     alert("잘못 눌렀습니다.");
                 }
