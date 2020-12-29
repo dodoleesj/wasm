@@ -1,0 +1,54 @@
+.world {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    perspective: 1000px;
+}
+.state {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transform-style: preserve-3d; /*인터넷 익스플로러 적용x*/
+}
+.house {
+    transform-style: preserve-3d; /*인터넷 익스플로러 적용x*/
+    width: 100vw;
+    height: 100vh;
+    transform: translateZ(-490vw);
+}
+.wall {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255, 0.8);
+}
+.wall-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 5rem;
+}
+.wall-front-a { transform: translateZ(300vw); }
+.wall-front-b { transform: translateZ(50vw); }
+.wall-front-c { transform: translateZ(-200vw); }
+.wall-front-d { transform: translateZ(-500vw); }
+.wall-left {
+    width: 1000vw;
+    transform: rotateY(90deg);
+    left: -500vw;
+    background: #f8f8f8;
+}
+.wall-right {
+    width: 1000vw;
+    transform: rotateY(90deg);
+    left: -400vw; /*transform: translaseZ(100vw)*/
+    background: #f8f8f8;
+
+}

@@ -1,20 +1,52 @@
 <template>
-<div>
-    <h1>개표 페이지</h1>
+<div class="screen">
+    <div class="world">
+        <div class="stage">
+            <div class="house">
+                <section class="wall wall-left"></section>
+                <section class="wall wall-right"></section>
+                <section class="wall wall-front wall-front-a">
+                    <div class="wall-content">
+                        <h2 class="wall-title">개표 시작</h2>
+                    </div>
+                </section>
+                <section class="wall wall-front wall-front-b">
+                    <div class="wall-content">
+                        <h2 class="wall-title">1표</h2>
+                    </div>
+                </section>
+                <section class="wall wall-front wall-front-c">
+                    <div class="wall-content">
+                        <h2 class="wall-title">2표</h2>
+                    </div>
+                </section>
+                <section class="wall wall-front wall-front-d">
+                    <div class="wall-content">
+                        <h2 class="wall-title">3표</h2>
+                    </div>
+                </section>
+
+            </div>
+            <!--// house -->
+
+            <!-- 캐릭터 놓이는 곳 -->
+
+        </div>
+        <!--// stage -->
+    </div>
 </div>
+
 </template>
 
 <script>
 
 
 export default {
-    layout: 'counting',
+    layout: 'reset',
 }
 </script>
 
 <style scoped>
-h1{
-    text-align: center;
-    padding: 30px;
-}
+@import '~/assets/counting.css';
+
 </style>

@@ -13,8 +13,9 @@ import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
 import _4181ae69 from '..\\layouts\\counting.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
+import _77f69b19 from '..\\layouts\\reset.vue'
 
-const layouts = { "_counting": sanitizeComponent(_4181ae69),"_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_counting": sanitizeComponent(_4181ae69),"_default": sanitizeComponent(_6f6c098b),"_reset": sanitizeComponent(_77f69b19) }
 
 export default {
   render (h, props) {
