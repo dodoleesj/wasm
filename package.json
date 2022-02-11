@@ -15,7 +15,7 @@
     "@mdi/font": "^5.8.55",
     "@nuxtjs/vuetify": "^1.11.2",
     "fibers": "^5.0.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.14.12",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
